@@ -1,0 +1,13 @@
+.logo{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    margin: 50px;
+    
+}
+.heading{
+    display: inline;
+    margin-left: 15%;
+    background-color: gray;
+    
+}
