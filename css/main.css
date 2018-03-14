@@ -39,3 +39,34 @@ body{
     text-align: center;
     margin: 25px 25px;
 }
+.footer{
+    display: flex;
+    border-top: solid;
+    border-top-width: thick;
+    border-top-color: teal;
+}
+.f{
+    display: inline;
+    float: right;
+    width: 50%;
+    margin-left: 10rem;
+    padding: 1rem;
+    
+    
+}
+
+.cc-logo{
+    height: 15%;
+    width: 25%;
+    margin-left: 6rem;
+    padding: 1rem;
+   
+}
+
+  /***
+    height: 40%;
+    width: 35%;
+    padding: 3rem;
+   
+}
+***/
