@@ -40,6 +40,7 @@ body{
     margin: 25px 25px;
 }
 .footer{
+    background-color: gray;
     display: flex;
     border-top: solid;
     border-top-width: thick;
@@ -51,6 +52,8 @@ body{
     width: 50%;
     margin-left: 10rem;
     padding: 1rem;
+    text-align: center;
+    color: floralwhite;
     
     
 }
@@ -60,7 +63,7 @@ body{
     width: 25%;
     margin-left: 6rem;
     padding: 1rem;
-   
+
 }
 
   /***
