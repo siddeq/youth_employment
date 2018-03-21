@@ -9,8 +9,12 @@ body{
     width: 10%;
     border-radius: 49%;
     margin: 15px;
-    
-    
+}
+
+.nav{
+    justify-content: space-around;
+    padding: 0.1rem;
+
 }
 .heading{
     font-size: 3rem;

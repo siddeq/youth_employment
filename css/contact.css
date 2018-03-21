@@ -1,11 +1,11 @@
 body{
-    background-color:lightgrey;
+    background-color: ffd4;
 }
 .h1{
     text-align: center;
     font-weight: bold;
     color: black;
-    padding: 5rem;
+    padding: 1rem;
 
 }
 .address1{
@@ -17,16 +17,19 @@ body{
     border:solid;
     border-width: 1rem;
     border-spacing: 1rem;
-    border-color: gray;
+    border-color: teal;
 }
 .address2{
     display: flex;
-    float: left;
+    float: right;
     width: 32%;
     font-weight: inherit;
     margin: 4rem 4rem;
     border:solid;
     border-width: 1rem;
     border-spacing: 1rem;
-    border-color: gray;
+    border-color: teal;
+}
+h2{
+    padding: 1rem;
 }
