@@ -14,23 +14,32 @@ body{
 .nav{
     justify-content: space-around;
     padding: 0.1rem;
+    border-color: teal;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-weight: bold;
+    font-size: 1.2rem;
 
 }
 .heading{
+    text-align: center;
     font-size: 3rem;
     font-weight: bold;
     color: white;
     border: teal;
     display: inline;
     margin-left: 10%;
-    padding: 10px 10px;
+    padding: 7px 7px;
     
 }
 .main-img{
-    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    margin-left: 20rem;
-    padding: 3rem;
+    border: solid;
+    border-width: 3px;
+    border-color: teal;
 }
 .h1{
     text-align: center;
@@ -41,7 +50,7 @@ body{
 }
 .h3{
     text-align: center;
-    margin: 25px 25px;
+    margin: 1rem 15rem 1rem 15rem;
 }
 .footer{
     background-color: gray;
@@ -50,18 +59,17 @@ body{
     border-top-width: thick;
     border-top-color: teal;
 }
-.f{
+.f {
     display: inline;
     float: right;
-    width: 50%;
-    margin-left: 10rem;
+    width: 55%;
+    margin-left: 5rem;
     padding: 1rem;
     text-align: center;
     color: floralwhite;
-    
-    
+       
 }
-
+  
 .cc-logo{
     height: 15%;
     width: 25%;
