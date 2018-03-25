@@ -1,3 +1,375 @@
+/** Medium devices (tablets, 768px and up) ***/
+    @media (max-width: 575.98px)  { 
+    body{
+        background-color: lightgrey;
+        width: 100%;
+        }
+    
+    .logo{
+        display: inline;
+        width: 20%;
+        height: 20%;
+        border-radius: 49%;
+        margin: auto;
+        padding: 0.5rem;
+    }
+    
+    .nav{
+        justify-content: 100%;
+        border-color: teal;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: normal;
+        font-size: 0.6rem;
+    
+    }
+    .heading{
+        display: inline;
+        width: 80%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: normal;
+        color: darkgrey;
+        border: teal;
+        display: inline;
+        margin-left: auto;
+        padding: 0.1rem;
+        
+    }
+    .main-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        border: solid;
+        border-width: 3px;
+        border-color: teal;
+    }
+    .h1{
+        text-align: center;
+        font-size: 50%;
+        padding: 10px 10px;
+    }
+    .h2{
+        text-align: center;
+        font-size: 50%;
+    }
+    .h3{
+        text-align: center;
+        font-size: 50%;
+        margin: auto;
+        padding: .5rem;
+    }
+    .footer{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        border-top: solid;
+        border-top-width: thick;
+        border-top-color: teal;
+    }
+    .f {
+        display: inline;
+        font-size: 50%;
+        float: right;
+        width: 75%;
+        margin-left: auto;
+        padding: 0.5rem;
+        text-align: center;
+        color: floralwhite;
+           
+    }
+      
+    .cc-logo{
+        height: 15%;
+        width: 25%;
+        margin-top: auto
+        margin-left: auto;
+        padding: 0.5rem;
+    
+    }
+    
+         
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    body{
+        background-color: lightgrey;
+        width: 100%;
+        }
+    
+    .logo{
+        display: inline;
+        width: 25%;
+        height: 20%;
+        border-radius: 49%;
+        margin: auto;
+        padding: 1rem;
+    }
+    
+    .nav{
+        justify-content: 100%;
+        border-color: teal;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    
+    }
+    .heading{
+        display: inline;
+        width: 80%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+        border: teal;
+        display: inline;
+        margin-left: auto;
+        padding: 0.8rem;
+        
+    }
+    .main-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        border: solid;
+        border-width: 3px;
+        border-color: teal;
+    }
+    .h1{
+        text-align: center;
+        font-size: 85%;
+        padding: 1.8rem;
+    }
+    .h2{
+        text-align: center;
+        font-size: 85%;
+        margin-bottom: 1rem;
+        }
+    .h3{
+        text-align: center;
+        font-size: 85%;
+        margin: auto;
+        padding: 1rem;
+    }
+    .footer{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        border-top: solid;
+        border-top-width: thick;
+        border-top-color: teal;
+    }
+    .f {
+        display: inline;
+        font-size: 80%;
+        float: right;
+        width: 70%;
+        margin-left: auto;
+        padding: 1rem;
+        text-align: center;
+        color: floralwhite;
+           
+    }
+      
+    .cc-logo{
+        height: 20%;
+        width: 25%;
+        margin-left: auto;
+        padding: 0.5rem;
+    
+    }
+ }
+
+ /** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        background-color:lightblue;
+        width: 100%;
+        }
+    
+    .logo{
+        display: inline;
+        width: 30%;
+        height: 25%;
+        border-radius: 49%;
+        margin: auto;
+        padding: 2rem;
+    }
+    
+    .nav{
+        justify-content: 100%;
+        border-color: teal;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bolder;
+        font-size: 1.8rem;
+    
+    }
+    .heading{
+        display: inline;
+        width: 70%;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+        border: teal;
+        margin-left: 0;
+        padding: 0.6rem;
+        
+    }
+    .main-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        border: solid;
+        border-width: 3px;
+        border-color: teal;
+    }
+    .h1{
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    .h2{
+        text-align: center;
+        font-size: 1.3rem;
+        margin-bottom: 1rem
+    }
+    .h3{
+        text-align: center;
+        width: 83%;
+        font-size: 1.5rem;
+        margin: auto;
+        padding: 1rem;
+    }
+    .footer{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        border-top: solid;
+        border-top-width: thick;
+        border-top-color: teal;
+    }
+    .f {
+        display: inline;
+        font-size: 1rem;
+        float: right;
+        width: 70%;
+        margin-left: auto;
+        padding: 1rem;
+        text-align: center;
+        color: floralwhite;
+           
+    }
+      
+    .cc-logo{
+        height: 15%;
+        width: 25%;
+        margin-left: auto;
+        padding: 0.5rem;
+    
+    }  
+ }
+
+ /** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    body{
+        background-color:lightskyblue;
+        width: 100%;
+        }
+    
+    .logo{
+        display: inline;
+        width: 25%;
+        height: 20%;
+        border-radius: 49%;
+        margin: auto;
+        padding: 1.5rem;
+    }
+    
+    .nav{
+        justify-content: 100%;
+        border-color: teal;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 2.2rem;
+    
+    }
+    .heading{
+        display: inline;
+        width: 80%;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: darkslategrey;
+        border: teal;
+        display: inline;
+        margin-left: auto;
+        padding: 1rem;
+        
+    }
+    .main-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        border: solid;
+        border-width: 5px;
+        border-color: teal;
+    }
+    .h1{
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    .h2{
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 0.7rem
+    }
+    .h3{
+        text-align: center;
+        width: 70%;
+        font-size: 1.5rem;
+        margin: auto;
+        padding: 1rem;
+    }
+    .footer{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        border-top: solid;
+        border-top-width: thick;
+        border-top-color: teal;
+    }
+    .f {
+        display: inline;
+        font-size: 1.5rem;
+        float: right;
+        width: 70%;
+        margin-left: auto;
+        padding: 1rem;
+        text-align: center;
+        color: floralwhite;
+           
+    }
+      
+    .cc-logo{
+        height: 15%;
+        width: 25%;
+        margin-left: auto;
+        padding: 0.5rem;
+    
+    }  
+ }
+
 /*** Extra large devices (large desktops, 1200px and up) ***/
 @media (min-width: 1200px) {
 
@@ -8,48 +380,53 @@ body{
 
 
 .logo{
-    height: 10%;
-    width: 10%;
+    height: 30%;
+    width: 25%;
     border-radius: 49%;
-    margin: 15px;
+    margin: auto;
+    padding: 1rem;
 }
 
 .nav{
     justify-content: space-around;
-    padding: 0.1rem;
+    padding: 1rem;
     border-color: teal;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2.3rem;
 
 }
 .heading{
     text-align: center;
-    font-size: 3rem;
+    width: 75%;
+    font-size: 2.7rem;
     font-weight: bold;
     color: white;
     border: teal;
     display: inline;
-    margin-left: 10%;
-    padding: 7px 7px;
+    margin-left: auto;
+    padding: 0.5rem;
     
 }
 .main-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     border: solid;
-    border-width: 3px;
+    border-width: 7px;
     border-color: teal;
 }
 .h1{
     text-align: center;
-    padding: 10px 10px;
+    width: auto;
+    padding: 1rem;
 }
 .h2{
     text-align: center;
+    width: auto;
+    margin-bottom: 0.8rem;
 }
 .h3{
     text-align: center;
@@ -87,108 +464,5 @@ body{
     width: 35%;
     padding: 3rem;
    
-    // Medium devices (tablets, 768px and up) ***/
-    @media (min-width: 576px) and (max-width: 767.98px) { 
-    body{
-        background-color: grey;
-        width: 100%;
-        }
-    .container{
-        display: inline;
-        width: 95%;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: normal;
-        color: darkgrey;
-        border: teal;
-        display: inline;
-        margin-left: auto;
-        padding: 0.1rem;
-    }
     
-    
-    .logo{
-        display: inline;
-        width: 20%;
-        height: 5%;
-        width: 5%;
-        border-radius: 49%;
-        margin: auto;
-    }
-    
-    .nav{
-        justify-content: 100%;
-        border-color: teal;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: normal;
-        font-size: auto;
-    
-    }
-    .heading{
-        display: inline;
-        width: 80%;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: normal;
-        color: darkgrey;
-        border: teal;
-        display: inline;
-        margin-left: auto;
-        padding: 0.1rem;
-        
-    }
-    .main-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border: solid;
-        border-width: 3px;
-        border-color: teal;
-    }
-    .h1{
-        text-align: center;
-        font-size: 75%;
-        padding: 10px 10px;
-    }
-    .h2{
-        text-align: center;
-        font-size: 50%;
-    }
-    .h3{
-        text-align: center;
-        font-size: 50%;
-        margin: auto;
-    }
-    .footer{
-        background-color: gray;
-        display: flex;
-        width: 100%;
-        border-top: solid;
-        border-top-width: thick;
-        border-top-color: teal;
-    }
-    .f {
-        display: inline;
-        font-size: 50%;
-        float: right;
-        width: 70%;
-        margin-left: auto;
-        padding: 1rem;
-        text-align: center;
-        color: floralwhite;
-           
-    }
-      
-    .cc-logo{
-        height: 15%;
-        width: 25%;
-        margin-left: auto;
-        padding: 0.5rem;
-    
-    }
-    
-         
-}
 
