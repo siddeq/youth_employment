@@ -3,6 +3,7 @@
 ## Description
 ```
 A brief description of your project
+It is my first project for code Louisville, it is about youth program that I work with at Catholic Charities, it has three pages, home page, registration form and contact page.
 
 ```
 
@@ -12,11 +13,7 @@ A brief description of your project
 ```
 The class(es) I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
-
-2.
-
+I wrote all the custom css, all most all the class and ids are used custom, for example logo, address1, cclogo
 ```
 
 
