@@ -389,35 +389,23 @@ body{
     background-color: #7fffd4;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     content: inherit;
     width: 100%;
-=======
     width: 80%;
->>>>>>> bbbe37d6d0a16dd49fbf96460bd768deaf5c7947
     }
 
 
 
 .logo{
-<<<<<<< HEAD
-    height: 25%;
-    width: 30%;
-=======
     height: 20%;
     width: 20%;
     border: solid;
     border-width: 1px;
     border-color: #7fffd4;
->>>>>>> bbbe37d6d0a16dd49fbf96460bd768deaf5c7947
     border-radius: 49%;
 
     margin: auto;
-<<<<<<< HEAD
-    padding: 6rem;
-=======
     padding: 3rem;
->>>>>>> bbbe37d6d0a16dd49fbf96460bd768deaf5c7947
 }
 
 .nav{

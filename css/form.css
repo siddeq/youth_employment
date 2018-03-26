@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 body{
     align-self: auto;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-=======
 //** Extra small devices (portrait phones, less than 576px) **//
 @media (max-width: 575.98px) {
 
@@ -57,7 +55,6 @@ label {
 
 //** Extra large devices (large desktops, 1200px and up) **//
 @media (min-width: 1200px) {
->>>>>>> bbbe37d6d0a16dd49fbf96460bd768deaf5c7947
 form{
     float: center;
     width: 95%;
