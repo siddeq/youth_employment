@@ -1,3 +1,9 @@
+body{
+    align-self: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 form{
     float: center;
     margin-left: 10rem;
