@@ -1,5 +1,57 @@
+//** Extra small devices (portrait phones, less than 576px) **//
+@media (max-width: 575.98px) {
+
 form{
     float: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p{
+  display: block;
+  float: center;
+  width: 80%
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.81rem;
+  margin-bottom: 1rem;
+}
+
+.transportation  {
+  float: center;
+  width: 80%
+  font-size: 0.81rem;
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.days {
+    float: center;
+    width: 80%;
+    position: static;
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: .75rem;
+}
+label {
+    display: block;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+}
+
+//** Extra large devices (large desktops, 1200px and up) **//
+@media (min-width: 1200px) {
+form{
+    float: center;
+    width: 95%;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 2rem;
@@ -28,4 +80,4 @@ label {
     display: inline-block;
     margin-bottom: 0rem;
     margin-right: 1rem;
-}
+ }
