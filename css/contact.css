@@ -1,39 +1,33 @@
-body{
-    background-color: ffd4;
-
-}
-.h1{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    padding: 1rem;
-
-}
+/** Extra small devices (portrait phones, less than 576px) **/
+@media (max-width: 575.98px) { 
+    .h1 {
+        font-size: 1rem;
+        font-style: italic;
+    }
 .address1{
     display: flex;
-    float: left;
-    width: 40%;
-    font-weight: inherit;
-    margin: 4rem 4rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     border:solid;
-    border-width: 1rem;
-    border-spacing: 1rem;
+    border-width: 0.5rem;
     border-color: teal;
     margin-bottom: 2rem;
 }
 .address2{
     display: flex;
-    float: right;
-    width: 32%;
+    width: 85%;
     font-weight: inherit;
-    margin: 4rem 4rem;
+    margin-left: auto;
+    margin-right: auto;
     border:solid;
-    border-width: 1rem;
-    border-spacing: 1rem;
+    border-width: 0.5rem;
+    border-spacing: 0.5rem;
     border-color: teal;
 
 }
 h2{
+    font-size: 0.7rem;
     padding: 1rem;
 }
 
@@ -45,3 +39,96 @@ h2{
     border-top-width: thick;
     border-top-color: teal;
 }
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 1199.98px) { 
+
+    .h1 {
+        font-size: 1rem;
+        font-style: italic;
+    }
+.address1{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid;
+    border-width: 0.5rem;
+    border-color: teal;
+    margin-bottom: 2rem;
+}
+.address2{
+    display: flex;
+    width: 85%;
+    font-weight: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid;
+    border-width: 0.5rem;
+    border-spacing: 0.5rem;
+    border-color: teal;
+
+}
+h2{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    border-top: solid;
+    border-top-width: thick;
+    border-top-color: teal;
+}
+}
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { 
+
+    .h1 {
+        font-size: 2rem;
+        font-style: italic;
+    }
+    .address1{
+        display: flex;
+        float: left;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid;
+        border-width: 1rem;
+        border-spacing: 1rem;
+        border-color: teal;
+        margin-bottom: 2rem;
+    }
+    .address2{
+        display: flex;
+        float: left;
+        width: 45%;
+        margin-left: 1rem;
+        margin-right: auto;
+        border:solid;
+        border-width: 1rem;
+        border-spacing: 1rem;
+        border-color: teal;
+        margin-bottom: 2rem;
+    
+    }
+    h2{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    
+    .footer{
+        background-color: gray;
+        display: flex;
+        width: 100%;
+        border-top: solid;
+        border-top-width: thick;
+        border-top-color: teal;
+    }
+
+ }
