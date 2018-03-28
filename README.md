@@ -22,7 +22,7 @@ I wrote all the custom css, all most all the class and ids are used custom, for 
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. function name ex( Use strict () )
+The function I use is for validation of the form, in order to get complete information if someone sign up for program.
 
 ```
