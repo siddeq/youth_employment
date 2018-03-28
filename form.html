@@ -11,12 +11,16 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/form.css">
+    <script src="js/app.js"></script>
+
+    <!-- starting header and logo -->
     <img src="img/logo.jpg" class="logo" alt="logo">
     <title>youth employment program</title>
 </head>
 <h1 class="heading">YOUTH EMPLOYMENT PROGRAM</h1>
-
+<!-- end header and logo -->
 <body>
+  <!-- starting Navigation bar  -->
     <ul class="nav nav-pills nav-justified">
         <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -27,7 +31,8 @@
                 <a class="nav-link " href="contact.html">Contact Us</a>
             </li>
     </ul>
-
+<!-- end Navigation bar  -->
+              <!-- starting enrollment form -->
             <form class="needs-validation" novalidate>
                 <div class="form-row">
                   <div class="col-md-4 mb-3">
@@ -119,6 +124,7 @@
             <div class="p">
                 <p> What kind of transportation do you use for work?</p>
                 </div>
+                <!-- starting radio buttons-->
             <div class="form-check form-check-inline">
                 <div class="transportation form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -128,12 +134,13 @@
                 <label class="form-check-label" for="inlineRadio2">Public transportation </label>
             </div>
         </div>
+            <!-- end radio buttons-->
 
             <div class="p">
                 <p>Which days of the week are willing to work?</p>
                 </div>
+                <!-- starting check boxes-->
             <div class="form-check form-check-inline">
-                
                  <div class="days form-check form-check-inline">
 
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -161,7 +168,7 @@
                     <label class="form-check-label" for="inlineCheckbox3">Saturday</label>
                     </div>
                     </div>
-
+                      <!-- end check boxes-->
             <div class="form-group">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -175,28 +182,8 @@
             </div>
             <button class=" button btn btn-primary" type="submit">Submit form</button>
     </form>
-    
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-    </script>
-
+    <!-- end enrollment form -->
+  
     <!-- starting of footer  -->
    <footer class="footer">
        <img class="cc-logo" src="img/cclou-logo.jpg" alt="catholic charities logo">

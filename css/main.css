@@ -1,4 +1,4 @@
-/** Medium devices (tablets, 768px and up) ***/
+/** Extra small devices (portrait phones, less than 576px) ***/
     @media (max-width: 575.98px)  {
     body{
         background-color: lightgrey;
@@ -481,8 +481,3 @@ body{
 
 }
 }
-
-  /***
-    height: 40%;
-    width: 35%;
-    padding: 3rem;
